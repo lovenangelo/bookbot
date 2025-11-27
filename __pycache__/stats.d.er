@@ -1,0 +1,5 @@
+##[pylyzer] failed /home/lovenangelo/Projects/BootDev/bookbot/stats.py 1764251912 533
+.get_num_words: (text: Str) -> Nat
+.get_chars_dict: |K: Type|(text: global::Iterable(Structural({.lower = (self: Obj) -> K}))) -> global::Dict!({K: Nat})
+.sort_on: |V: Type|(item: global::Indexable(Obj, V)) -> V
+.sorter: Never
